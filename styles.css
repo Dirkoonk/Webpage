@@ -82,6 +82,14 @@ body {
     font-weight: bold;
 }
 
+.image-caption {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-top: 5px;
+    font-style: italic;
+}
+
 #info-display {
     display: none; /* Standardmäßig versteckt */
     text-align: center;
