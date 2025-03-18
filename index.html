@@ -9,20 +9,28 @@
 <body>
     <h1 class="title">Sailor Twift</h1>
     <div class="button-container">
-        <button onclick="navigateTo('tour.html')">TOUR</button>
-        <button onclick="navigateTo('merch.html')">MERCH</button>
-        <button onclick="navigateTo('mailing.html')">MAILING LIST</button>
-        <button onclick="navigateTo('store.html')">STORE</button>
+        <button class="nav-button" onclick="navigateTo('tour.html')">TOUR</button>
+        <button class="nav-button" onclick="navigateTo('merch.html')">MERCH</button>
+        <button class="nav-button" onclick="navigateTo('mailing.html')">MAILING LIST</button>
+        <button class="nav-button" onclick="navigateTo('store.html')">STORE</button>
     </div>
 
     <div class="image-container">
         <img src="band-photo.jpg" alt="Band Photo">
+        <p class="image-caption">Us, visiting our home town before our big WORLD TOUR.</p>
     </div>
 
     <div class="info-container">
-        <div class="info-box yellow" onclick="showInfo('yellow')"></div>
-        <div class="info-box purple" onclick="showInfo('purple')"></div>
-    </div>
+        <div class="info-box yellow" onclick="showInfo('yellow')">
+            <img src="study.jpg" alt="Study" class="info-image">
+            <span class="info-text">CLICK HERE!</span>
+        </div>
+        <div class="info-box purple" onclick="showInfo('purple')">
+            <img src="job.jpg" alt="Job" class="info-image">
+            <span class="info-text">CLICK HERE!</span>
+        </div>
+	</div>
+    
     
     <div id="info-display" class="hidden">
         <img id="info-image" src="" alt="Info Image">
@@ -30,7 +38,7 @@
         <p id="info-text"></p>
     </div>
 
-    <div class="footer-text">New ALBUMB out now!!!</div>
+    <div class="footer-text">New ALBUM "FINALLY FOUND A JOB" release date: 15.04.2025</div>
     
     <script src="script.js"></script>
 </body>
