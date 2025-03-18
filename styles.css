@@ -54,6 +54,8 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    border: 5px solid yellow; /* Fügt einen gelben Rahmen hinzu */
+    border-radius: 10px; /* Macht die Ecken leicht abgerundet */
 }
 
 .info-image {
