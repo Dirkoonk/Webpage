@@ -93,17 +93,20 @@ body {
 }
 
 .band-image {
-    width: 50%; /* Bild um 50% verkleinern */
-    height: auto;
+    max-width: 50%; /* Setzt die Breite auf die Hälfte der Originalgröße */
+    height: auto; /* Hält das Seitenverhältnis */
+    display: block;
+    margin: 0 auto; /* Zentriert das Bild */
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .highlight {
-    font-size: 24px; /* Größere Schrift für Berlin, Hamburg und Karlsruhe */
+    font-size: 24px; /* Größerer Text für Berlin, Hamburg und Karlsruhe */
     font-weight: bold;
     color: #ff5733; /* Auffällige Farbe */
 }
+
 
 
 #info-display {
