@@ -13,6 +13,3 @@ Die Webseite ist live unter folgendem Link erreichbar:
 ## 🛠️ Technologie-Stack  
 Die Webseite wurde mit folgenden Technologien entwickelt:  
 - **Frontend:** HTML, CSS, JavaScript
-
-  ##📜 Lizenz
-Diese Webseite ist unter der "DHBW"-Lizenz lizenziert.
